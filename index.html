@@ -21,59 +21,96 @@
 
 <body>
     <header>
-        <img src="br_paper.png" alt="Background to logo" />
-        <img src="br_logo.png" alt="Logo">
+        <img src="br_logo.png" alt="Logo" />
         <nav>
-            <li><a href="index.html">Home</a>
-                <a href="#">More Details</a>
-                <a href="#">Map</a>
-                <a href="#">Request a Showing</a>
-                <a href="#">Other Listings</a>
-            </li>
+            <a href="index.html">Home</a>
+            <a class="dropdown" href="#">More Details</a>
+            <a class="dropdown" href="#">Map</a>
+            <a class="dropdown" href="#">Request a Showing</a>
+            <a class="dropdown" href="#">Other Listings</a>
             <a href="#">Residential</a>
             <a href="#">Business</a>
             <a href="#">Properties</a>
             <a href="#">Rentals</a>
             <a href="#">Appraisals</a>
         </nav>
-
+<!-- This is set to make a nav that with 10 links that will be under the logo image. -->
     </header>
 
     <section>
         <h1>Listing Description</h1>
         <blockquote>
+
+            <li>
+                List Price: $412,800
+            </li>
+
+            <li>
+                Square Feet: 3,300
+            </li>
+
+            <li>
+                Bedrooms: 4
+            </li>
+
+            <li>
+                Baths: 2-1/2
+            </li>
+
+            <li>
                 Address:
                 Listing 2048
                 414 Mandel Road
-                Owatonna, MN  55060
-                
-                List Price: $412,800
-                Square Feet: 3,300
-                Bedrooms: 4
-                Baths: 2-1/2
+                Owatonna, MN 55060
+            </li>
+
         </blockquote>
-        <h2>Listing 20481</h2>
+        <h1>Listing 20481</h1>
         <p>Paradise found! This custom-built brand new home sits proudly on a 6.8-acre
-                high wooded site overlooking a 300-acre nature conservancy. The setting is
-                exceptional, and the home is every bit as exciting! A bright, open layout is 
-                enhanced by vaulted ceilings, hardwood and tumbled, ceramic flooring, custom 
-                maple cabinetry, upgraded fixtures, numerous windows, and incredible views.
-                
-                There is much more. The property includes a 40x54 storage building - perfect
-                for a large boat and machinery. An exposed walkout on lower level leads down to
-                a beautiful wooded area.
-                
-                An extra bathroom, bedroom, and family room can be added to the unfinished 
-                basement for more living space.</p>
-        <img src="br_" alt="Front View" />
-        <img src="br_" alt="Rear View" />
-        <img src="br_" alt="Side View" />
-        <img src="br_" alt="Dining Room" />
-        <img src="br_" alt="Kitchen" />
-        <img src="br_" alt="Living Room" />
-        <img src="br_" alt="Bedroom 1" />
-        <img src="br_" alt="Bedroom 2" />
-        <img src="br_" alt="Bedroom 3" />
+            high wooded site overlooking a 300-acre nature conservancy. The setting is
+            exceptional, and the home is every bit as exciting! A bright, open layout is
+            enhanced by vaulted ceilings, hardwood and tumbled, ceramic flooring, custom
+            maple cabinetry, upgraded fixtures, numerous windows, and incredible views.
+
+            There is much more. The property includes a 40x54 storage building - perfect
+            for a large boat and machinery. An exposed walkout on lower level leads down to
+            a beautiful wooded area.
+
+            An extra bathroom, bedroom, and family room can be added to the unfinished
+            basement for more living space.</p>
+<!-- This creates the description for the listing which will have the specifics in a list and the actual description right next to it. -->
+        <div class="leftmargin">
+            <img id="front" src="br_photo1.png" alt="Front View" />
+            <figcaption id="front">Front View</figcaption>
+
+            <img id="rear" src="br_photo2.png" alt="Rear View" />
+            <figcaption id="rear">Rear View</figcaption>
+
+            <img id="side" src="br_photo3.png" alt="Side View" />
+            <figcaption id="side">Side View</figcaption>
+
+            <img id="dining" src="br_photo4.png" alt="Dining Room" />
+            <figcaption id="dining">Dining Room</figcaption>
+
+            <img id="kitchen" src="br_photo5.png" alt="Kitchen" />
+            <figcaption id="kitchen">Kitchen</figcaption>
+        </div>
+        
+        <div class="rightmargin">
+            <img id="living" src="br_photo6.png" alt="Living Room" />
+            <figcaption id=living"">Living Room</figcaption>
+
+            <img id="bedroom1" src="br_photo7.png" alt="Bedroom 1" />
+            <figcaption id="bedroom1">Bedroom 1</figcaption>
+
+            <img id="bedroom2" src="br_photo8.png" alt="Bedroom 2" />
+            <figcaption id="bedroom2">Bedroom 2</figcaption>
+
+            <img id="bedroom3" src="br_photo9.png" alt="Bedroom 3" />
+            <figcaption id="bedroom3">Bedroom 3</figcaption>
+        </div>
+        </figure>
+        <!-- This creates two sides of images each with their own caption with 5 images on the left and 4 on the right. -->
     </section>
 </body>
 
